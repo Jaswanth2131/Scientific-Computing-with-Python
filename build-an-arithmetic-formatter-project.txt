@@ -1,5 +1,3 @@
-** start of main.py **
-
 def arithmetic_arranger(problems, show_answers=False):
     if len(problems) > 5:
         return "Error: Too many problems."
@@ -50,6 +48,3 @@ def arithmetic_arranger(problems, show_answers=False):
         arranged = f"{first_line}\n{second_line}\n{dash_line}"
 
     return arranged
-
-** end of main.py **
-
